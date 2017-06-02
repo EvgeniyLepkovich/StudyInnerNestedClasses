@@ -29,5 +29,8 @@ public class AppConfig {
         for (String number : validNumbers) {
             System.out.println("Number " + number + " is valid.");
         }
+
+        UseExamples useExamples = new UseExamples();
+        System.out.println(useExamples.toString());
     }
 }
