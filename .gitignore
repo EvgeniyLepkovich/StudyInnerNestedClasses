@@ -1,4 +1,5 @@
 .settings/
 .project
-final_project/
-src/
+.gitignore
+.classpath
+bin/
