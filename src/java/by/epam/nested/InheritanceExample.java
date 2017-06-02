@@ -8,13 +8,9 @@ import java.util.RandomAccess;
  */
 public class InheritanceExample implements Runnable {
 
-    public void publicOuterMethod() {
-        System.out.println("Oooh yeeeah!");
-    }
+    public void publicOuterMethod() {/*NOP*/}
 
-    private void privateOuterMethod() {
-        System.out.println("Don't ever touch me, I'm private!");
-    }
+    private void privateOuterMethod() {/*NOP*/}
 
     //extends allowed
     static class ExtendsNested extends Object {}
@@ -27,25 +23,19 @@ public class InheritanceExample implements Runnable {
     static class ExtendsOuterClass extends InheritanceExample {
         //So you can override public methods
         @Override
-        public void publicOuterMethod() {
-            System.out.println("Make it");
-        }
+        public void publicOuterMethod() {/*NOP*/}
 
         //here also can be overriding of 'run' method
 
         // but you can't see private method (usual case)
         //@Override //error (not overriding)
-        private void privateOuterMethod() {
-            System.out.println("Not today");
-        }
+        private void privateOuterMethod() {/*NOP*/}
     }
 
     //implement outer class interfaces also allowed
     static class ImplementsOuterInterfaces implements Runnable {
         @Override
-        public void run() {
-            System.out.println("You should do it");
-        }
+        public void run() {/*NOP*/}
     }
 
     //even this will work
@@ -63,7 +53,5 @@ public class InheritanceExample implements Runnable {
     static @interface Annotation {} //@InheritanceExample.Annotation
 
     @Override
-    public void run() {
-        /*NOP*/
-    }
+    public void run() {/*NOP*/}
 }
