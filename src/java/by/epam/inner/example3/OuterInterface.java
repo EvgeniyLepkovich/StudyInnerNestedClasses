@@ -1,6 +1,6 @@
 package by.epam.inner.example3;
 
-public interface A {
+public interface OuterInterface {
 	public final Inner inner = new Inner();
 	class Inner{
 		public int a;

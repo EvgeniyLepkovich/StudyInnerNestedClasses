@@ -1,19 +1,17 @@
 package by.epam.inner.example1;
 
-public class A {
+public class OuterVariableAccess {
 	private int a=5;
 	public void printA(){
 		System.out.println(a);
-	}
-	
-	class B{
+	}	
+	class Inner{
 		public void printA2(){
 			System.out.println(a);
 		}
 	}
 	public static void main(String[] args){
-		B a = new A().new B();
+		Inner a = new OuterVariableAccess().new Inner();
 		a.printA2();
-	}
-	
+	}	
 }
