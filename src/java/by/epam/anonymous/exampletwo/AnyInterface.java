@@ -1,4 +1,4 @@
-package by.epam.anonymous.exampletwo;
+package java.by.epam.anonymous.exampletwo;
 
 public interface AnyInterface {
 	

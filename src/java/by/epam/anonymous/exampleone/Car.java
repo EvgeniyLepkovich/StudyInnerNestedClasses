@@ -1,4 +1,4 @@
-package by.epam.anonymous.exampleone;
+package java.by.epam.anonymous.exampleone;
 
 public class Car {
 	

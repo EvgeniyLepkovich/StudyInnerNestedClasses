@@ -1,4 +1,4 @@
-package by.epam.anonymous.exampleone;
+package java.by.epam.anonymous.exampleone;
 
 /*
  * demonstrates how to create an anonymous class on base of usual java class
