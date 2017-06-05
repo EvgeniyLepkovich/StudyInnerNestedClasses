@@ -1,4 +1,4 @@
-package com.company.india.anonymous;
+package by.epam.anonymous;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

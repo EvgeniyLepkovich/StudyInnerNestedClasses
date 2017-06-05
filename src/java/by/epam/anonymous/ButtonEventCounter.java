@@ -1,4 +1,4 @@
-package com.company.india.anonymous;
+package by.epam.anonymous;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

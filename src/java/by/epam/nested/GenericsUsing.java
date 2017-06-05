@@ -1,3 +1,5 @@
+package by.epam.nested;
+
 public class GenericsUsing<T> {
     T type;
 

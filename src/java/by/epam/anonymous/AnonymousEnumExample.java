@@ -1,4 +1,4 @@
-package com.company.india.anonymous;
+package by.epam.anonymous;
 
 import java.util.Iterator;
 

@@ -1,3 +1,5 @@
+package by.epam.nested;
+
 public interface StaticMethodUsing {
 
     //Inner class in interface is static by default

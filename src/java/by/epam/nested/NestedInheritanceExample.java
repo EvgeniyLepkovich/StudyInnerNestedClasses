@@ -1,3 +1,5 @@
+package by.epam.nested;
+
 public class NestedInheritanceExample {
     private static long id;
     private String name;

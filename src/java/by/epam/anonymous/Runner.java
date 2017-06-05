@@ -1,4 +1,4 @@
-package com.company.india.anonymous;
+package by.epam.anonymous;
 
 
 public class Runner implements Runnable {
